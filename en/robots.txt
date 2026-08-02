@@ -1,0 +1,24 @@
+# GTIT Ningbo Geartorque - robots.txt
+# Last updated: 2026-07-06
+
+User-agent: *
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /search/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /*.pdf$
+Disallow: /thank-you/
+Disallow: /404
+
+# 允许爬取核心资源（CSS/JS/图片，确保渲染正常）
+Allow: /wp-includes/*.js
+Allow: /wp-includes/*.css
+Allow: /wp-content/uploads/
+
+# 爬取速率限制（防止服务器过载，尤其B2B站图片较多时）
+Crawl-delay: 2
+
+# 指向Sitemap（关键！两者必须联动）
+Sitemap: https://gtit.cc/sitemap.xml
+
