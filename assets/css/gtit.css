@@ -1,0 +1,266 @@
+
+.header-area-3 .header__logo img,
+.header-area-4 .header__logo img,
+.header-area-13 .header__logo img {
+  max-width: 168px;
+}
+
+.main-menu ul.dp-menu {
+    background-color: #112;
+}
+
+.header-area-13 .main-menu li a {
+    /* color: white; */
+}
+
+
+.about-section-12__desc,
+.hero-section-12__title {
+    color:#112;
+}
+
+.offset-logo {
+  width: 145px;
+}
+
+.load-text span:nth-child(-n + 4) {
+    /* color:#20208A */
+    color:#559;
+}
+.load-text span:nth-child(n + 5) {
+    color:#E68908
+}
+
+.service-6__subtitle {
+  font-size: 28px;
+  width: 62ch;
+}
+
+.service-6__subtitle span {
+  width: 400px;
+}
+.hero-section-12__title {
+  line-height: 1.125;
+}
+@media only screen and (max-width: 991px) {
+   .header-area-13 .header__logo img {
+        max-width: 128px;
+    }
+}
+
+.hero-section-12 {
+    background: url("../imgs/gtit/gears/bg-blue-gears.webp") no-repeat center center;
+    background-size: cover;
+}
+.hero-section-12__bottom {
+  border-bottom: none;
+}
+
+.works-section-12__content,
+.works-section-10__content {
+  text-align: center;
+}
+
+.about .page-title-area {
+  background-image: url("../imgs/gtit/factory/facilities/entrance-gtit.webp");
+  background-size: cover;
+  background-position: center 80%;
+  padding-block: 5rem;
+  border-radius: 8px;
+  height: 750px;
+}
+.services .page-title-area {
+  background-image: url("../imgs/gtit/factory/facilities/entrance-gtit.webp");
+  background-size: cover;
+  background-position: center 80%;
+  padding-block: 5rem;
+  border-radius: 8px;
+  height: 750px;
+}
+.service-6__item::before {
+  background-color: #E68908;
+}
+
+.about-us__inner .about-us__wrapper .about-us__box .media .title,
+.about-us__inner .title {
+  font-weight: 400;
+}
+
+.header-area-13__inner {
+  border-bottom: none;
+}
+.bar-icon span {
+  background: white;
+}
+.footer__inner {margin-top: .5rem;}
+
+b {
+  margin-bottom: 2rem;
+  display: block;
+}
+.blog-details .list {
+  margin-bottom: 2rem;
+}
+.blog-details__content {
+  max-width: 76ch;
+  margin-inline: auto;
+}
+
+.about-section-12__desc {
+  max-width: 76ch;
+  margin-inline: auto;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.main-menu ul.dp-menu {
+  width: 120px;
+}
+
+.disclaimer-text .text {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.about-us__inner .about-us__wrapper .about-us__box .media .title {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.hero-area-service-details .feature-list {
+  margin-top: 0;
+}
+
+.page-title-area.contact .page-title-wrapper .page-title {
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+.contact-info__inner {
+  grid-template-columns: 1fr 195px 165px auto;
+}
+@media only screen and (max-width: 1919px) {
+  .hero-section-12 {
+    min-height: 100vh;
+  }
+  .hero-section-12__content {
+    padding-bottom: 185px;
+  }
+  .section-spacing-top {
+    padding-top: 90px;
+  }
+    .footer-widget-box .copyright-text {
+    margin-top: 100px;
+  }
+  .hero-section-12__bottom span.hero-section__right-text {
+  color: white;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .hero-section-12__bottom span.hero-section__right-text {
+    color: black;
+  }
+  .service-6__subtitle span {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .hero-section-12 {
+    min-height: 68vh;
+  }
+      .section-spacing-top {
+    padding-top: 60px;
+  }
+  .about .page-title-area {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+   .hero-section-12__content {
+    padding-bottom: 125px;
+  }
+    .section-spacing-top {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-section-12 {
+        min-height: 100vh;
+    }
+    .section-spacing-top {
+    padding-top: 10px;
+  }
+    .services .page-title-area,
+    .about .page-title-area {
+    height: 350px;
+  }
+  .service-6__subtitle span {
+    width: 100px;
+  }
+  .service-6__subtitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575px) {
+
+}
+
+.approach-area-service-details-page .approach-wrapper-content {
+  margin-top: 70px;
+}
+
+.works-section-12 {
+    padding-block: 5rem;
+}
+
+
+.rr-btn-primary,
+.header-area-4 .rr-btn-primary,
+.contact-area-contact-page .submit-btn .rr-btn-primary,
+.header-area-13 .rr-btn-primary {
+    background-color: #E68908;
+}
+
+.rr-btn-primary:hover {
+    background-color: #E68908;
+}
+
+footer {
+    border-bottom: 16px solid #E68908;
+}
+
+
+.about-us__inner .title {
+  font-size: 2.2rem;
+  line-height: 1.33;
+}
+
+
+.mfp-close::after {
+  font-family: "Font Awesome 6 Pro";
+  content: "\f00d";
+  font-weight: 300;
+}
+
+.service-6__wrapper {
+  padding-bottom: 120px;
+}
+
+/*
+.header-area-4__inner .header__logo img,
+.header-area-13 .header__logo img,
+.header-area-3 .header__logo img {
+    height: 80px;
+}
+ */
+
+/*
+.header-area-13 .main-menu li a {
+  color: var(--white);
+} */
