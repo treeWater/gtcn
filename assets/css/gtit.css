@@ -181,7 +181,7 @@ b {
 
 @media only screen and (max-width: 991px) {
    .hero-section-12__content {
-    padding-bottom: 125px;
+    padding-block: 250px;
   }
     .section-spacing-top {
     padding-top: 30px;
